@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:text="TopQueue provides the top most popular questions of different fields and branches asked in Interview."
+        android:id="@+id/textView2"
+        android:layout_marginTop="75dp"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:paddingTop="30dp"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Go to Blog"
+        android:layout_marginTop="20dp"
+        android:id="@+id/helpbutton"
+        android:textColor="#e8e8e8"
+        android:textSize="18dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:textColor="#e8e8e8"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/contactus"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

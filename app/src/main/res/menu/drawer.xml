@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/a">
+        <item android:title="Home"  android:icon="@drawable/home" android:id="@+id/home" />
+    </group>
+    <group
+        android:id="@+id/b"
+        >
+        <item android:title="Branches" android:icon="@drawable/branchh"  android:id="@+id/brach"></item>
+    </group>
+    <!--<group android:id="@+id/c">-->
+        <!--<item android:title="Prefrences" android:icon="@drawable/preferences" android:id="@+id/pref"></item>-->
+    <!--</group>-->
+
+    <group android:id="@+id/l">
+    <item android:title="Log In" android:icon="@drawable/fb_navbar" android:id="@+id/login"></item>
+    </group>
+
+    <group android:id="@+id/e">
+        <item android:id="@+id/rate" android:title="Rate Us" android:icon="@drawable/rename"/>
+    </group>
+    <group android:id="@+id/d">
+        <item android:title="Help" android:icon="@drawable/help1" android:id="@+id/help"></item>
+    </group>
+    <!--<group android:id="@+id/f">-->
+        <!--<item android:id="@+id/about" android:title="About Us" android:icon="@drawable/about"/>-->
+    <!--</group>-->
+
+</menu>
